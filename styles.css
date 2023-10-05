@@ -1,0 +1,64 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  border: 0;
+  height: 100%;
+}
+
+.wrapper {
+  margin-right: 15px;
+  padding-bottom: 20px;
+}
+
+h4 {
+  font-size: large;
+  font-weight: 500;
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 500;
+  font-family: sans-serif;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+
+.card {
+  border-radius: 10%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 400px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  box-shadow: 3px 3px 3px 3px lightgray;
+  margin: 15px;
+}
+
+img {
+  margin: 5px;
+  width: 200px;
+}
+
+.list {
+  margin-top: 40px;
+  margin-left: 30px;
+}
+
+.list li,
+.list p {
+  font-size: large;
+  font-family: sans-serif;
+}
